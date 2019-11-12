@@ -52,6 +52,7 @@ class FormEmployee extends React.Component {
             <div className='form-data'>
               <label htmlFor='title'>Movie's name</label>
               <input
+                required
                 type='text'
                 id='title'
                 name='title'
@@ -63,6 +64,7 @@ class FormEmployee extends React.Component {
             <div className='form-data'>
               <label htmlFor='poster'>Poster URL</label>
               <input
+                required
                 type='text'
                 id='poster'
                 name='poster'
@@ -74,6 +76,7 @@ class FormEmployee extends React.Component {
             <div className='form-data'>
               <label htmlFor='comment'>Comment</label>
               <input
+                required
                 type='textarea'
                 id='comment'
                 name='comment'
